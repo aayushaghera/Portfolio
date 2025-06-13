@@ -48,7 +48,7 @@ import TerraAid from './assets/work_logo/TerraAid.png';
 import PaytmWallet from './assets/work_logo/PaytmWallet.png';
 import Talentizo from './assets/work_logo/Talentizo.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
+import Medium from './assets/work_logo/Medium.png';
 import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
@@ -239,16 +239,16 @@ export const SkillsInfo = [
       github: "https://github.com/aayushaghera/Talentizo",
       webapp: "",
     },
-    // {
-    //   id: 3,
-    //   title: "Email Validator NPM Package",
-    //   description:
-    //     "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-    //   image: npmLogo,
-    //   tags: ["React JS", "Node.js", "NPM", "Validation"],
-    //   github: "https://github.com/codingmastr/cmtk-email-validator",
-    //   webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-    // },
+    {
+      id: 3,
+      title: "Medium",
+      description:
+        "A full-stack Medium-like blogging platform built with modern web technologies.",
+      image: Medium,
+      tags: ["React JS", "TypeScript", "TailwindCSS", "PostgreSQL" , "Prisma ORM" , "Hono.js" , "Cloudflare Workers"],
+      github: "https://github.com/aayushaghera/Medium",
+      webapp: "https://medium-71r1.vercel.app/",
+    },
     // {
     //   id: 4,
     //   title: "Task Reminder Chrome Extension Tool",
